@@ -1,0 +1,375 @@
+#navbar-logo{
+    height: 6rem;
+}
+
+.button {
+    background-color: #00aeef;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    display: inline;
+    color: #fff;
+    letter-spacing: 0;
+    font-family: 'Rubik';
+    font-weight: 1000;
+    font-size: 14px;
+    line-height: 38px;
+    width: 150px;
+    height: 40px;
+    outline: none;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 5px;
+    margin-left: 15px;
+    border: none;
+    /* margin-top: 10px; */
+  }
+  
+  .button1:hover {
+    background-color: #fff;
+    color: black;
+    border: solid 2px #00aeef;
+  }
+
+  .button2 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #00aeef;
+    font-size: 18px;
+  }
+  
+  .button2:hover {
+    background-color: #00aeef;
+    color: white;
+  }
+
+  .button {
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  @media (max-width:992px) {
+    .button2 {
+      font-size: 14px;
+    }
+  }
+
+  #rrrr {
+    text-decoration: none;
+  }
+
+  #heading-above-button{
+    padding-left: 40px;
+    margin-top: 8px;
+    padding-bottom: 20px;
+  }
+
+  #btngc{
+    height: 90px;
+    width: 250px;
+  }
+
+  #button-upper-container{
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  .navbar-nav{
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    position: relative;
+  }
+  .nav-item{
+    margin-right: 20px;
+  }
+
+  .nav-link{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .navbar {
+    /* background-color: rgb(230, 224, 224); */
+    border-bottom: solid 0.8px #1f386d;
+  }
+
+  #nav-text{
+    color: #d2302e;
+  }
+
+  #middle-image-below-navbar{
+    object-fit: cover;
+    width: 525px;
+    height: 450px;
+  }
+
+  @media (max-width:992px) {
+    img#middle-image-below-navbar {
+      display: none;
+    }
+  }
+
+  #middle-down-section{
+    background-color: #4fd0ff;
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+
+  #button4-1{
+    justify-content: center;
+    display: flex;
+  }
+
+  #button4-2{
+    justify-content: center;
+  }
+
+  #button4-3{
+    justify-content: center;
+    display: flex;
+  }
+
+  #button4-4{
+    justify-content: center;
+  }
+
+  @media (max-width:992px) {
+    .row#row-block {
+      flex-wrap: nowrap;
+    }
+  }
+
+  @media (max-width:992px) {
+    .button#btngc {
+      height: 90px;
+      width: 130px;
+    }
+  }
+
+  @media (max-width:992px) {
+    .col-lg-6#button4-1, .col-lg-6#button4-2, .col-lg-6#button4-3, .col-lg-6#button4-4 {
+      width: 195px;
+    }
+  }
+
+  #robot-right{
+    height: 20rem;
+  }
+
+  #special-text{
+    color: #fff;
+  }
+
+  #what-text{
+    color: #fff;
+  }
+
+  #line{
+    color: rgb(11, 73, 165);
+  }
+
+  #american{
+    color: #fff;
+  }
+
+  #middle-left-image {
+    width: 80%;
+    margin-right: 100px;
+  }
+
+  .container#image-text{
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .col-lg-5#middle-text{
+    margin-top: 30px;
+  }
+
+  .image-text-button{
+    margin-left: -15px;
+  }
+
+  #middle-text-para{
+    font-weight: 400;
+    opacity: 0.8;
+  }
+
+  #numbers{
+    height: 90px;
+    margin-left: 20px;
+  }
+
+  #text-with-number{
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700; 
+  }
+
+  .number-1{
+    margin-top: 30px;
+  }
+
+  #middle-down-section-numbers{
+    background-color: #f4f6fb;
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+
+  #van-image{
+    height: 650px;
+  }
+
+  #heading-above-numbers{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    padding-bottom: 10px;
+    font-size: 45px; 
+  }
+
+  #para-below-numbers{
+    opacity: 0.8;
+  }
+
+  #middle-text-heading{
+    font-weight: 520;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  #footer{
+    background-color: #4fd0ff;
+    padding-top: 50px;
+    margin-top: 70px;
+  }
+
+  #maps{
+    padding-bottom: 50px;
+    padding-left: 50px;
+  }
+
+  .contact-us-box{
+    text-align: left;
+  }
+
+
+  div#comparison { 
+    width: 300px;
+    height: 400px;
+    max-width: 300px;
+    max-height: 400px;
+    overflow: hidden; }
+  div#comparison figure { 
+    background-image: url(images/after.jpeg); 
+    background-size: cover;
+    position: relative;
+    font-size: 0;
+    width: 100%; 
+    height: 100%;
+    margin: 0; 
+  }
+  div#comparison figure > img { 
+    position: relative;
+    width: 100%;
+  }
+  div#comparison figure div { 
+    background-image: url(images/before.jpeg);
+    background-size: cover;
+    position: absolute;
+    width: 50%; 
+    box-shadow: 0 5px 10px -2px rgba(0,0,0,0.3);
+    overflow: hidden;
+    bottom: 0;
+    height: 100%;
+  }
+  
+  input[type=range]{
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    position: relative;
+    top: -13rem; left: -2%;
+    background-color: rgba(255,255,255,0.1);
+    width: 102%; 
+  }
+  input[type=range]:focus { 
+    outline: none; 
+  }
+  input[type=range]:active { 
+    outline: none;  
+  }
+  
+  input[type=range]::-moz-range-track { 
+    -moz-appearance:none;
+      height:15px;
+      width: 98%;
+      background-color: rgba(255,255,255,0.1); 
+      position: relative;
+      outline: none;    
+   }
+  input[type=range]::active { 
+    border: none; 
+    outline: none;
+  }
+  input[type=range]::-webkit-slider-thumb {
+      -webkit-appearance:none;
+      width: 20px; height: 20px;   
+      background:#9a9a9a;
+      border-radius: 0;
+     }
+  input[type=range]::-moz-range-thumb {
+    -moz-appearance: none;
+    width: 20px;
+    height: 20px;
+    background:#9a9a9a;
+    border-radius: 0;
+       }   
+  input[type=range]:focus::-webkit-slider-thumb {
+      background:#9a9a9a;
+     }
+  input[type=range]:focus::-moz-range-thumb {
+      background:#9a9a9a;
+     }
+
+
+     #before-after-text{
+      margin-bottom: 20px;
+      margin-top: 20px;
+     }
+
+     #before-after{
+      color: #d2302e;
+      font-size: 2rem;
+      font-family: 'Rubik';
+     }
+
+     #see-it-text{
+      color: #00aeef;
+      font-size: 3rem;
+      font-family: 'Rubik';
+     }
+
+     #compare{
+      margin-bottom: 50px;
+     }
+
+     #carouselMultiItemExample{
+      margin-top: 50px;
+     }
+
+     @media (max-width:992px) {
+      img#van-image {
+        display: none;
+      }
+    }
+
+    @media (max-width:992px) {
+      #middle-down-section {
+        margin-top: 50px;
+        width: 100%;
+      }
+    }
+
+    @media (max-width:992px) {
+      #maps {
+        padding-right: 50px;
+      }
+    }

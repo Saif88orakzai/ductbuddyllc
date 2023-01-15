@@ -148,7 +148,7 @@
 
   @media (max-width:992px) {
     .col-lg-6#button4-1, .col-lg-6#button4-2, .col-lg-6#button4-3, .col-lg-6#button4-4 {
-      width: 195px;
+      width: 190px;
     }
   }
 
@@ -371,5 +371,44 @@
     @media (max-width:992px) {
       #maps {
         padding-right: 50px;
+      }
+    }
+
+    hr { 
+      display: block;
+      margin-top: 0.5em;
+      margin-bottom: 0.5em;
+      margin-left: 200px;
+      margin-right: 200px;
+      border-style: inset;
+      border-width: 50px;
+      color: #fff;
+    }
+
+    @media (max-width:992px) {
+      #button4-1 {
+        margin-left: -20px;
+        padding-right: 0px;
+      }
+    }
+
+    @media (max-width:992px) {
+      #button4-3 {
+        margin-left: -20px;
+        padding-right: 0px;
+      }
+    }
+
+    @media (max-width:992px) {
+      #button4-4 {
+        padding-right: 0px;
+        padding-left: 0px;
+      }
+    }
+
+    @media (max-width:992px) {
+      #button4-2 {
+        padding-right: 0px;
+        padding-left: 0px;
       }
     }
